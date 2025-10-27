@@ -10,14 +10,16 @@ except ImportError:
 
 class AcquireCompetitiveTheory:
     """
+    📙
     Верхний уровень: Обрести конкурентную релевантную теорию
     (аналогично практике), с фокусом на переход к
     FormCompetitiveSkills.
     """
 
-
+    m_path = 'ok.txt'
     class CompetitiveAppQualities:
         """
+        📕
         Ориентир: Теория по конкурентным качествам приложения
         (фокус на метриках и оценке производительности для
         senior-уровня в AI-ML, ведущий к практическим
@@ -119,13 +121,16 @@ class AcquireCompetitiveTheory:
 
     class BasicTheoryRelevantBusinessCases:
         """
+        📕
         База: Базовая теория по релевантным бизнес кейсам
         (применение ML в индустриях, с фокусом на переход к
         full-stack приложениям).
         """
 
         class RecommendationSystemsCases:
-            """Ориентир: Кейсы в рекомендательных системах (Netflix-like системы, ведущие к гибридным рекомендерам в FastAPI)."""
+            """
+            📘
+            Ориентир: Кейсы в рекомендательных системах (Netflix-like системы, ведущие к гибридным рекомендерам в FastAPI)."""
 
             class HybridRecommenders:
                 """Ориентир: Гибридные рекомендеры (комбинация matrix factorization и neural networks, подготавливающие к NCF training pipelines)."""
@@ -150,22 +155,55 @@ class AcquireCompetitiveTheory:
                 pass
 
         class ComputerVisionCases:
-            """База: Кейсы в компьютерном зрении (CV приложения вроде object detection, предваряющие real-time deployments с YOLO)."""
+            """
+            📘
+            База: Кейсы в компьютерном зрении (CV приложения вроде object detection, предваряющие real-time deployments с YOLO)."""
 
             class ObjectDetection:
-                """Ориентир: Object detection (YOLOv5/v8 для real-time detection, с теорией для custom training и inference optimization)."""
+                """
+                📗
+                Ориентир: Object detection (YOLOv5/v8 для real-time detection, с теорией для custom training и inference optimization)."""
 
-                class Architectures:
-                    """Ориентир: Архитектуры (CSPDarknet backbone с PANet, ведущие к transfer learning на datasets)."""
+            class Architectures:
+                """
+                📗
+                Ориентир: Архитектуры (CSPDarknet backbone
+                с PANet, ведущие к transfer learning на datasets).
+                """
 
-                    def custom_datasets_training(self):
-                        """Ориентир: Тренировка на custom datasets (transfer learning с COCO-pretrained weights, как основа для augmentations и metrics calculation)."""
-                        pass
+                tier_path = 'Architectures/CV_Architecture.txt'
 
-                    def basic_metrics(self):
-                        """База: Базовые метрики (mAP, IoU для оценки detection, подготавливающие к FPS в video streams)."""
-                        pass
+                def custom_datasets_training(self):
+                    """
+                    📒
+                    Ориентир: Тренировка на custom datasets (transfer learning с COCO-pretrained weights, как основа для augmentations и metrics calculation)."""
+                    pass
+
+                def basic_metrics(self):
+                    """
+                    📒
+                    База: Базовые метрики (mAP, IoU для оценки detection, подготавливающие к FPS в video streams)."""
+                    pass
 
                 def segmentation(self):
-                    """База: Segmentation (U-Net для semantic segmentation, с переходом к PyTorch components)."""
+                    """
+                    📒
+                    База: Segmentation (U-Net для semantic
+                    segmentation, с переходом к PyTorch components).
+
+
+                    - U-Net architecture (encoder-decoder, skip
+                    - connections)
+                    - Semantic vs instance vs panoptic segmentation
+                    - Dice loss, Focal loss для segmentation
+                    - Pixel-wise cross-entropy
+                    - Medical imaging applications
+                    - Mask R-CNN для instance segmentation
+                    - DeepLab series (atrous convolution, ASPP)
+
+                    """
+
+                    tier_path = 'Architectures/intro/segmentation.txt'
+
                     pass
+
