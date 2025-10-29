@@ -203,7 +203,7 @@ class AcquireCompetitiveTheory:
 
                     """
 
-                    tier_path = 'Architectures/intro/segmentation.txt'
+                    tier_path = 'Architectures/intro/segmentation'
 
                     pass
 
