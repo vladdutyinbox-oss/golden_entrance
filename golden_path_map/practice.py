@@ -116,7 +116,7 @@ class FormCompetitiveSkills:
                     pass
 
             class ComputerVisionApp:
-                """База: Приложение для компьютерного зрения (CV app с detection и segmentation)."""
+                """База: Приложение для компьютерного зрения (CV app с detection и 📒segmentation)."""
 
                 class RealTimeObjectDetection:
                     """Ориентир: Real-time object detection (YOLOv8 deployment с OpenCV для video streams)."""

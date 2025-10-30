@@ -203,7 +203,7 @@ class AcquireCompetitiveTheory:
 
                     """
 
-                    tier_path = 'Architectures/intro/segmentation'
+                    tier_path = 'Architectures/intro/📒segmentation'
 
                     pass
 
